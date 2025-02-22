@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -56,5 +58,14 @@ public class Main {
         int b = 6;
 
         String resultado = a == b ? "igual" : "diferente";
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Digite o primeiro nome: ");
+        String nome1 = scanner.next();
+
+
+        System.out.println("Digite sua altura");
+        double altura = scanner.nextDouble();
     }
 }
